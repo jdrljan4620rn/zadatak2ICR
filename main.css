@@ -1,0 +1,262 @@
+/*----------------->NAVBAR<-----------------*/
+.navbar-expand-lg{
+    background-color: #8AB976;
+    height: 100px;
+}
+
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #04586C; 
+    font-size: 25px; 
+    text-decoration: none;
+    padding: 14px 12px;
+    margin: 14px 12px;
+  }
+
+  .dropdown-menu a.dropdown-item {
+    font-size: 14px;
+  }
+
+  body{
+    font-family: 'Inter', sans-serif;
+  }
+
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    background-image: url('pozadina.png');
+  }
+  
+  main {
+    flex: 1;
+  }
+
+  /*---------------------MAIN PART------------------------*/
+
+  #mainPart {
+    background-color: #FEFEE9;
+  }
+
+/**-------------------------PONUDE------------------------*/
+  #ponudeNaslov{
+    font-size: 70px;
+    text-align: center;
+  }
+
+    #maliNaslov{
+    font-size: 30px;
+    text-align: center;
+    padding: 2.5%;
+    }
+
+
+    .card-title{
+        color: darkolivegreen;
+    }
+
+    #konkretnePonude {
+        text-align: center;
+    }
+
+        #cards{
+            background-image: url('green.png');
+           /* background-color: #CCE7C0;*/
+            border-radius: 8%;
+            margin: 3%;
+            padding: 3%;
+            white-space: nowrap;
+            min-width: fit-content;
+            width: 100%;
+        }
+
+        #cardText{
+            color: #7B809E;
+            font-size: 25px;
+            margin: 0.5%;
+            padding: 0.5%;
+        } 
+
+        #cardPrice{
+            font-size: 20px;
+            text-align: left;
+            display: inline-block;
+            width: 50%;
+            height: 100%;
+            color: #04586C;
+            width: fit-content;
+            margin: 0.5%;
+            padding: 0.5%;
+        }
+
+        #btnCard{
+            background-color: #7B809E;
+            color: #04586C;
+            font-size: 16px ;
+            width: fit-content;
+            height: fit-content;
+        }
+
+    #ponudeNaslov2{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #domeni{
+        text-align: left;
+    }
+
+            #special {
+                margin-right: 20%;
+            }
+
+            #maliDOmeni{
+                background-color: #04586C;
+                width: 80px;
+                height: 80px;
+                border-radius: 20%;
+            }
+
+            .card-text{
+                color: black;
+                text-align: center;
+                font-size: 20px;
+                margin-top: 30px;
+                margin-bottom: 30px;
+                padding-top: 25px;
+                padding-bottom: 30px;
+            }
+
+    #kodNas {
+        text-align: center;
+        color: red;
+        font-size: 35px;
+    }
+
+    #bigtekst{
+        text-align: left;
+        margin: 1%;
+        padding :1%;
+        background-color: #B6BAD6;
+        border-radius: 5%;
+    }
+
+/*-----------------BUSINESS-------------------------*/
+    #businessNaslov{
+        text-align: center;
+        font-size: 50px;
+        padding: 2%;
+    }
+
+    #bussinessPodnaslov{
+        font-size: 20px;
+        text-align: center;
+        padding: 1%;
+        margin: 1%;
+    }
+
+    #businessNaslov2{
+        font-size: 28px;
+        text-align: center;
+        padding: 1%;
+        margin: 1%;
+    }
+
+        #businessPonudeN{
+            color: red;
+            font-size: 30px;
+            padding: 1%;
+            margin: 1%;
+        }
+
+        #businessCT{
+            text-align: center;
+            font-size: 16px;
+            color: #7B809E;
+            padding: 2%;
+            margin: 2%;
+        }
+
+/*-----------------------WEB----------------------**/
+#webNaslov{
+    text-align: center;
+    font-size: 70px;
+    padding: 2%;
+}
+
+#webpodnaslov{
+    font-size: 35px;
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
+}
+
+#webponudeCN{
+    color: #04586C;         
+    font-size: 28px;
+    padding: 1%;
+    margin: 1%;
+}
+
+#webCT{
+    text-align: center;
+    font-size: 20px;
+    color: #7B809E;
+    padding: 2%;
+    margin: 2%;
+}
+
+#webtekst{
+    font-size: 20px;
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
+}
+
+
+  /*-----------------------FOOTER-----------------------------*/
+.footer {
+    margin-top: auto;
+    font-size: 10px; /* Promjena veličine teksta u footeru */
+    color: black; /* Promjena boje teksta u footeru */
+    background-color: #7B809E; /* Promjena boje pozadine footera */
+}
+
+.footer i{
+    font-size: 18px;
+}
+
+#cr {
+    background-color: #04586C;
+}
+
+
+/**------------------------INDEX--------------------------*/
+#landingpage{
+    background-image: url('blue.png');
+}
+
+#logic{
+    background-image: url('pics/logo.png');
+    height: 500px;
+}
+
+#vebic{
+    padding: 1%;
+    margin: 1%;
+}
+
+#tekstic{
+    padding: 2%;
+    margin: 2%;
+    font-size: 18px;
+}
+
+#pozadina{
+    background-image: url('pics/ppp.png');
+}
